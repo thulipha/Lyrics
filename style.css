@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montez&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none; 
+}
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px 5px;
+}
+.title{
+    width: 100%;
+    font-family: 'Montez';
+    font-size: 24pt;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.column{
+    display: flex;
+    align-self: center;
+    gap: 10px;
+}
+.row{
+    display: flex;
+    flex-direction: column;
+}
+form label{
+    font-family: monospace;
+    font-weight: 600;
+    font-size: 9pt;
+    padding: 2px;
+    color: #444;
+}
+form input{
+    width: 150px;
+    height: 40px;
+}
+form button{
+    padding: 10px 25px;
+    font-size: 10pt;
+    font-weight: 800;
+    color: #ddd;
+    background-color: #05f;
+    border: 1px solid #444;
+    border-radius: 5px;
+}
+form button:hover{
+    color: whitesmoke;
+    background-color: #0a9;
+    cursor: pointer;
+}
+.song_lyrics{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px 0;
+    font-size: 11pt;
+    gap: 20px;
+}
+.song_lyrics div{
+    display: flex;
+    font-weight: 900;
+    font-size: 20pt;
+    text-transform: capitalize;
+    gap: 5px;
+}
+
