@@ -11,6 +11,7 @@ form{
     align-items: center;
     flex-direction: column;
     gap: 15px 5px;
+    
 }
 .title{
     width: 100%;

@@ -20,7 +20,7 @@ let functions ={
     },
 
     easteregg:()=>{
-        return this.lyrics.innerHTML = 'Por acaso tu faz musica Liriel??  Volte a trabalhar';
+        return this.lyrics.innerHTML = 'Tú é atendente não compositor(a), Vá trabalhar.  ass: Fabricio';
     }
 };
 
@@ -33,7 +33,7 @@ function getLyrics(){
 
     form.addEventListener('submit', e => {
         e.preventDefault();
-        if(artist.value.toLowerCase() == "liriel" && song.value.toLowerCase() == "anacleto"){
+        if(artist.value.toLowerCase() == "di" && song.value.toLowerCase() == "orlandini"){
             functions.easteregg();
         }
         else{
